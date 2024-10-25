@@ -94,7 +94,8 @@ Array of parameters of the model. Each parameter is a tupe with 4 items:
 * **logarithmic** - True/False flag saying if Xspec shall interpolate in the parameter values linearly (False) or logarithmicaly (True)
 * **frozen** - True/False flag saying if Xspec shall initially set this parameter as frozen 
 Example: `par1 = ('mass', [10,20,30,40,50], False, False)`
-* **redshift**
+
+**redshift**
 If `redshift` parameter shall be added  by Xspec to the model (boolean). The `redshift` parameter will shift the model in energy space and divide by (1+z) factor.
 
 Do not include a normalization parameter, it will be added by Xspec automaticaly.
